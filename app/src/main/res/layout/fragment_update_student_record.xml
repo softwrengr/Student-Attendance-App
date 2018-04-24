@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.attaurrahman.studentattendence.Fragment.UpdateStudentRecordFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edith_text_height"
+        android:text="Update Student Registration"
+        android:textStyle="bold"
+        android:background="@color/sherpa_blue"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/llDelete"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+
+
+        <EditText
+            android:id="@+id/etUpdateName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:background="@drawable/squreline"
+            android:hint="Update Student Name"/>
+
+
+
+        <Button
+            android:id="@+id/btnUpdateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Student Name"/>
+
+        <EditText
+            android:id="@+id/etUpdateRollNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/margin_top_edithtext"
+            android:background="@drawable/squreline"
+            android:hint="Update Student RollNumber"/>
+
+
+        <Button
+            android:id="@+id/btnUpdateRollNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Student Roll Number"/>
+
+        <EditText
+            android:id="@+id/etUpdateClass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/margin_top_edithtext"
+            android:background="@drawable/squreline"
+            android:hint="Update Student Class"/>
+
+
+
+        <Button
+            android:id="@+id/btnUpdateClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Student Class"/>
+
+        <EditText
+            android:id="@+id/etUpdateFatherCNIC"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/margin_top_edithtext"
+            android:background="@drawable/squreline"
+            android:hint="Update Student Father CNIC"/>
+
+
+
+        <Button
+            android:id="@+id/btnUpdateFatherCNIC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Student Father CNIC"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StudentAttendance</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="previes">previes</string>
+    <string name="next">next</string>
+    <string name="add_student">Add Student</string>
+</resources>

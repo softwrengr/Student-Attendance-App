@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.attaurrahman.studentattendence.Fragment.StudentDetail">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edith_text_height"
+        android:text="Add Student"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/sherpa_blue"
+        android:textColor="@color/white"/>
+    <LinearLayout
+    android:id="@+id/llAddStudent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    >
+
+
+    <EditText
+        android:id="@+id/etStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/squreline"
+        android:hint="Student Name"/>
+    <EditText
+        android:id="@+id/etRollNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:background="@drawable/squreline"
+        android:layout_marginTop="@dimen/margin_top_edithtext"
+        android:hint="Student Roll Nmber"/>
+    <EditText
+        android:id="@+id/etClass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/margin_top_edithtext"
+        android:background="@drawable/squreline"
+        android:hint="Student Class"/>
+    <EditText
+        android:id="@+id/etFatherCNIC"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:background="@drawable/squreline"
+        android:layout_marginTop="@dimen/margin_top_edithtext"
+        android:hint="Student Father CNIC"/>
+
+        <ImageView
+            android:id="@+id/iv_add_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher"/>
+
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_button"
+        android:text="Save"/>
+   <!-- <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show"/>
+    <Button
+        android:id="@+id/btnSingleRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Record"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvItems"
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+</LinearLayout>
+
+</LinearLayout>

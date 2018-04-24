@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.attaurrahman.studentattendence.Fragment.ParentFragment"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/etFatherCnic"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="Enter Father CNIC"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@color/sherpa_blue"/>
+
+        <Button
+            android:id="@+id/btnCnicSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+
+<ListView
+
+            android:id="@+id/lvFatherCnic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="15dp"
+            android:divider="@color/white">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

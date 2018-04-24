@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll_student_attendance_list">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@color/gray">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp">
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="0.20"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="20dp"
+                   android:text="Name"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Roll Number"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Class "
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Father CNIC "
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Attendance"
+                   android:textStyle="bold" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Date"
+                   android:textStyle="bold" />
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:layout_weight="1"
+               android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/tvStudnetName"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/margin_top_button"
+                   android:text="Name" />
+
+               <TextView
+                   android:id="@+id/tvStudentRollNumber"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Roll Number" />
+
+               <TextView
+                   android:id="@+id/tvStudentClass"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Class " />
+
+               <TextView
+                   android:id="@+id/tvFatherCNIC"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Father CNIC " />
+
+               <TextView
+                   android:id="@+id/tvAttendance"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Attendance" />
+               <TextView
+                   android:id="@+id/tvDate"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="@dimen/top_margin_textview"
+                   android:text="Date" />
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_marginTop="20dp"
+               android:layout_weight="0.20"
+               android:gravity="center"
+               android:orientation="vertical">
+
+               <Button
+                   android:id="@+id/btnPresent"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:background="#69F0AE"
+                   android:text="P" />
+
+               <Button
+                   android:id="@+id/btnAbsent"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_marginTop="@dimen/margin_top_edithtext"
+                   android:background="#E91E63"
+                   android:text="A" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
